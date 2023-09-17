@@ -4,7 +4,7 @@ var saldo = 100.5;
 alert("Olá " + nome + ", é um prazer ter você por aqui!!")
 
 function inicio() {
-    var escolha = parseInt(prompt("Selecione uma opção \n 1-Saldo \n 2-Extrato \n 3-Saque \n 4-Depósito \n 5-Transferência \n 6-Sair"));
+    var escolha = parseInt(prompt("Selecione uma opção " + nome + "\n 1-Saldo \n 2-Extrato \n 3-Saque \n 4-Depósito \n 5-Transferência \n 6-Sair"));
 
     switch (escolha) {
         case 1:
@@ -34,6 +34,7 @@ function inicio() {
 }
 
 function ver_saldo() {
+
     alert("Seu saldo atual é: " + saldo);
     inicio();
 }
@@ -100,16 +101,16 @@ function fazer_transferencia() {
 
     if (valor_transferencia > saldo) {
         alert("Operação não realizada. Saldo insuficiente");
-        realizar_transferencia();
+        fazer_transferencia();
     } else if (isNaN(valor_transferencia) || valor_transferencia === " ") {
         alert("Caractéres inválidos. Por favor, informe um número.");
-        realizar_transferencia();
+        fazer_transferencia();
     } else if (valor_transferencia <= 0) {
         alert("Operação não realizada. Valor inválido");
-        realizar_transferencia();
+        fazer_transferencia();
     } else {
         saldo -= valor_transferencia;
-        alert("\n Tansferência feita com sucesso para: " + nome_ + "\n Banco : " + nome_banco + "\n Conta: " + num_conta + "\n No valor de: R$" + valor_transferencia);
+        alert("\n Tansferência feita com sucesso para: " + nome_ + "\n Banco : " + nome_banco + "\n Agência: " + agencia + "\n Conta: " + num_conta + "\n No valor de: R$" + valor_transferencia);
         ver_saldo();
     }
 
@@ -134,7 +135,7 @@ function erro() {
 
 function sair() {
     var confirma = confirm("Você deseja sair?");
-    alert("Agradecemos por usar os serviços do caixa eletrônico. " + nome + "foi uma prazer ter você por aqui!!")
+    alert("Agradecemos por usar os serviços do caixa eletrônico. " + nome + " foi uma prazer ter você por aqui!!")
 
     if (confirma === true) {
         window.close();
