@@ -8,5 +8,65 @@ https://rafaellima07.github.io/PROA-Caixa-Eletronico/
 
 O professor Gabriel Augusto (https://github.com/gabaugusto), do Instituto Proa, criou um caixa eletrônico, utilizando JavaScript. Porém ele estava incompleto e precisava ganhar novas funcionalidades, e também medidas que impedem erros como, saldo negativo, sacar um valor negativo ou menor que o saldo. 
 
-Minha tarefa era desenvolver uma nova versão desse caixa eletrônico, adicionando as novas funcionalidades. Nessa versão, ele ganhou funções para, transferir dinheiro para outros bancos, mostrar extratos ficticíos, usar uma senha para acessar os serviços de saldo, transferência, extrato e depósito. Ela também impede erros como saldo negativo, sacar mais dinheiro que o disponível na conta, depositar um valor igual à 0 ou tansferir um valor igual à 0.
+Minha tarefa era desenvolver uma nova versão desse caixa eletrônico, adicionando as novas funcionalidades. Nessa versão, ele ganhou funções para, transferir dinheiro para outras pessoas, mostrar extratos ficticios, usar uma senha para acessar os serviços de saldo, transferência, extrato e depósito. Ela também impede erros como saldo negativo, sacar mais dinheiro que o disponível na conta, depositar um valor igual à 0 ou tansferir um valor igual à 0.
 
+## Boas vindas ao usuário
+Nessa tela o usuário informa o seu nome e recebe uma mensagem de boas vindas.
+
+![Boas Vindas](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Boas-Vindas.png)
+
+## Menu
+Aqui ele pode utilizar os serviços disponíveis.
+
+![Menu](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Menu.png)
+
+## Ver saldo
+Nessa o usuário consulta seu saldo. 
+
+![Saldo](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Saldo-Atual.png)
+
+## Senha
+Sempre que o usuário for consultar extrato, fazer um saque, realizar um depósito ou transferência, ele dever informar a senha: 3589.
+
+![Senha](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Senha.png)
+
+## Extrato
+Aqui ele consulta um extrato (ficticio)
+
+![](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Extrato.png)
+
+## Saque
+O usuário informa o valor do saque. E recebe uma mensagem de confirmação.
+
+![Saque](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Saque.png)
+
+O valor informado é descontado do saldo atual.
+
+![Saque-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Saque-2.png)
+
+## Depósito
+O usuário informa o valor do depósito. E recebe uma mensagem de confirmação.
+
+![Depósito](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Dep%C3%B3sito.png)
+
+O valor recebido é somado ao saldo da conta.
+
+![Depósito-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Dep%C3%B3sito-2.png)
+
+## Transferência
+Aqui o usuário deve informa o nome completo, CPF, nome do banco, agência, numero da conta, tipo da conta e o valor da transferência. Depois ele recebe uma mensagem de confirmação com os dados informados.
+
+![Tranferência](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Transfer%C3%AAncia.png)
+
+O valor da transferência é descontado do saldo da conta.
+
+![Transferência-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Transfr%C3%AAncia-2.png)
+
+## Agradecimento
+Após o usuário informar que quer sair do caixa, ele recebe uma mensagem de agradecimento.
+
+![Agradecimento](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Agradecimento.png)
+
+# Tecnologias utilizadas
+JavaScript
+HTML
