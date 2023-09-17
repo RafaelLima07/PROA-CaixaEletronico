@@ -1,7 +1,7 @@
 var nome = prompt("Seja bem vindo usuário. Qual é o seu nome? ")
 var saldo = 100.5;
 
-alert("Olá, " + nome + " é um prazer ter você por aqui!!")
+alert("Olá " + nome + ", é um prazer ter você por aqui!!")
 
 function inicio() {
     var escolha = parseInt(prompt("Selecione uma opção \n 1-Saldo \n 2-Extrato \n 3-Saque \n 4-Depósito \n 5-Transferência \n 6-Sair"));
