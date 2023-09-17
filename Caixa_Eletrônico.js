@@ -135,7 +135,7 @@ function erro() {
 
 function sair() {
     var confirma = confirm("Você deseja sair?");
-    alert("Agradecemos por usar os serviços do caixa eletrônico. " + nome + " foi uma prazer ter você por aqui!!")
+    alert("Agradecemos por usar os serviços do caixa eletrônico " + nome + ", foi um prazer ter você por aqui!!")
 
     if (confirma === true) {
         window.close();
