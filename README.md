@@ -113,3 +113,5 @@ Após o usuário informar que quer sair do caixa, ele recebe uma mensagem de agr
 # Tecnologias utilizadas
 JavaScript
 HTML
+
+### 09/2023
