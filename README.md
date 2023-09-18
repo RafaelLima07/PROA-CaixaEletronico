@@ -30,6 +30,14 @@ Sempre que o usuário for consultar extrato, fazer um saque, realizar um depósi
 
 ![Senha](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Senha.png)
 
+Se a senha estiver correta o acesso é liberado.
+
+![Senha-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Senha-2.png)
+
+Se a senha estiver errada o acesso é impedido, mas, ele pode informar a senha novamente.
+
+![Senha-3](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Senha-3.png)
+
 ## Extrato
 Aqui ele consulta um extrato (ficticio)
 
@@ -44,6 +52,19 @@ O valor informado é descontado do saldo atual.
 
 ![Saque-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Saque-2.png)
 
+### Erro: Saque
+Se o usúario informar caractéres inválidos.
+
+![Erro](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro.png)
+
+Se o usuário informa um valor maior que o saldo da conta.
+
+![Erro-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro-2.png)
+
+Se o usuário informar um valor menor ou igual a zero.
+
+![Erro-3](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro-3.png)
+
 ## Depósito
 O usuário informa o valor do depósito. E recebe uma mensagem de confirmação.
 
@@ -53,6 +74,15 @@ O valor recebido é somado ao saldo da conta.
 
 ![Depósito-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Dep%C3%B3sito-2.png)
 
+### Erro: Depósito
+Se o usúario informar caractéres inválidos.
+
+![Erro](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro.png)
+
+Se o usuário informar um valor menor ou igual a zero.
+
+![Erro-3](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro-3.png)
+
 ## Transferência
 Aqui o usuário deve informa o nome completo, CPF, nome do banco, agência, numero da conta, tipo da conta e o valor da transferência. Depois ele recebe uma mensagem de confirmação com os dados informados.
 
@@ -61,6 +91,19 @@ Aqui o usuário deve informa o nome completo, CPF, nome do banco, agência, nume
 O valor da transferência é descontado do saldo da conta.
 
 ![Transferência-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Transfr%C3%AAncia-2.png)
+
+### Erro: Transferência
+Caso o usúario informar caractéres inválidos.
+
+![Erro](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro.png)
+
+Caso o usuário informa um valor maior que o disponível da conta.
+
+![Erro-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro-2.png)
+
+Caso o usuário informar um valor menor ou igual a zero.
+
+![Erro-3](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro-3.png)
 
 ## Agradecimento
 Após o usuário informar que quer sair do caixa, ele recebe uma mensagem de agradecimento.
