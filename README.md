@@ -84,7 +84,7 @@ Se o usuário informar um valor menor ou igual a zero.
 ![Erro-3](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro-3.png)
 
 ## Transferência
-Aqui o usuário deve informa o nome completo, CPF, nome do banco, agência, numero da conta, tipo da conta e o valor da transferência. Depois ele recebe uma mensagem de confirmação com os dados informados.
+Aqui o usuário deve informar os dados da pessoa que vai receber a transferência. Eses dados são: nome completo, CPF, nome do banco, agência, numero da conta, tipo da conta e o valor da transferência. Depois ele recebe uma mensagem de confirmação com os dados informados.
 
 ![Tranferência](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Transfer%C3%AAncia.png)
 
