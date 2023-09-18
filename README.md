@@ -53,7 +53,7 @@ O valor informado é descontado do saldo atual.
 ![Saque-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Saque-2.png)
 
 ### Erro: Saque
-Se o usúario informar caractéres inválidos.
+Se o usuário informar caractéres inválidos.
 
 ![Erro](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro.png)
 
@@ -75,7 +75,7 @@ O valor recebido é somado ao saldo da conta.
 ![Depósito-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Dep%C3%B3sito-2.png)
 
 ### Erro: Depósito
-Se o usúario informar caractéres inválidos.
+Se o usuário informar caractéres inválidos.
 
 ![Erro](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro.png)
 
@@ -93,7 +93,7 @@ O valor da transferência é descontado do saldo da conta.
 ![Transferência-2](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Transfr%C3%AAncia-2.png)
 
 ### Erro: Transferência
-Caso o usúario informar caractéres inválidos.
+Caso o usuário informar caractéres inválidos.
 
 ![Erro](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Erro.png)
 
