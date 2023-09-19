@@ -21,7 +21,7 @@ Aqui ele pode utilizar os serviços disponíveis.
 ![Menu](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Menu.png)
 
 ## Ver saldo
-Nessa o usuário consulta seu saldo. 
+O usuário consulta seu saldo. 
 
 ![Saldo](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Saldo-Atual.png)
 
