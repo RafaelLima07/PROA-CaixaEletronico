@@ -15,7 +15,7 @@ Nessa tela o usuário informa o seu nome e recebe uma mensagem de boas vindas.
 
 ![Boas Vindas](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Boas-Vindas.png)
 
-## Menu
+## Serviços
 Aqui ele pode utilizar os serviços disponíveis.
 
 ![Menu](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Menu.png)
