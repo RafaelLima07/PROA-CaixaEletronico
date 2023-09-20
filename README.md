@@ -114,4 +114,4 @@ Após o usuário informar que quer sair do caixa, ele recebe uma mensagem de agr
 JavaScript
 HTML
 
-### 09/2023
+### Projeto desenvolvido em: 09/2023
