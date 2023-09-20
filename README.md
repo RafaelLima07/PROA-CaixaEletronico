@@ -111,6 +111,7 @@ Após o usuário informar que quer sair do caixa, ele recebe uma mensagem de agr
 ![Agradecimento](https://github.com/RafaelLima07/PROA-Caixa-Eletronico/blob/main/assets/Agradecimento.png)
 
 # Tecnologias utilizadas
+
 JavaScript
 HTML
 
