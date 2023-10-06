@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-https://rafaellima07.github.io/PROA-Caixa-Eletronico/
+https://rafaellima07.github.io/PROA-Caixa_Eletronico/
 
 O professor Gabriel Augusto (https://github.com/gabaugusto), do Instituto Proa, criou um caixa eletrônico, utilizando JavaScript. Porém ele estava incompleto e precisava ganhar novas funcionalidades, e também medidas que impedem erros como, saldo negativo, sacar um valor negativo ou menor que o saldo. 
 
